@@ -1,0 +1,14 @@
+#include below in the CONTINUE model.json file
+{
+      "title": "openrouter/free",
+      "model": "openrouter/free",
+      "provider": "openrouter",
+      "apiBase": "https://openrouter.ai/api/v1",
+      "apiKey": "YOUR OPENROUTER API KEY",
+      "requestOptions": {
+        "headers": {
+          "HTTP-Referer": "https://continue.dev",
+          "X-Title": "Continue"
+        }
+      }
+    },
